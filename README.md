@@ -98,5 +98,3 @@ The objective is to develop a predictive model to classify individuals into one 
 
 You can run the entire project in **Google Colab** or locally with:
 
-```bash
-pip install -r requirements.txt
