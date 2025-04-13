@@ -117,12 +117,6 @@ During the preprocessing and analysis phase, we applied a range of feature selec
 - SHAP analysis revealed that high-tech usage combined with low physical activity and poor diet significantly increased obesity risk.
 - PCA showed that even after reducing dimensionality, the top 2–3 components captured most of the variance, validating the redundancy of several features.
 
-### 📷 Visual Aids:
-| Visualization Type            | File Name                    |
-|------------------------------|------------------------------|
-| SHAP Summary Plot            | `figures/shap_summary.png`   |
-| PCA Cluster Plot             | `figures/pca_clusters.png`   |
-| XGBoost Feature Importance   | `figures/figure_10.png` *(rename if needed)* |
 
 ---
 
