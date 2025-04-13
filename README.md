@@ -96,7 +96,40 @@ The objective is to develop a predictive model to classify individuals into one 
 
 ---
 
-## ▶️ How to Run
+---
 
-You can run the entire project in **Google Colab** or locally with:
+## 🔍 Feature Selection Insights
 
+During the preprocessing and analysis phase, we applied a range of feature selection techniques, including:
+
+- **Correlation Matrix Analysis**
+- **Principal Component Analysis (PCA)**
+- **Model-based Feature Importances** using Random Forest and XGBoost
+- **Model-Agnostic Methods** like SHAP and LIME
+
+### ✅ Key Findings:
+- Lifestyle-related features such as:
+  - `FAF` (Consumption of high-calorie food),
+  - `FCVC` (Vegetable intake frequency),
+  - `TUE` (Technology usage time),
+  - and `CALC` (Alcohol consumption),
+  had the highest impact on model predictions.
+- SHAP analysis revealed that high-tech usage combined with low physical activity and poor diet significantly increased obesity risk.
+- PCA showed that even after reducing dimensionality, the top 2–3 components captured most of the variance, validating the redundancy of several features.
+
+### 📷 Visual Aids:
+| Visualization Type            | File Name                    |
+|------------------------------|------------------------------|
+| SHAP Summary Plot            | `figures/shap_summary.png`   |
+| PCA Cluster Plot             | `figures/pca_clusters.png`   |
+| XGBoost Feature Importance   | `figures/figure_10.png` *(rename if needed)* |
+
+---
+
+### 🌍 Real-world Applications:
+- **Healthcare Dashboards**: Flag early signs of obesity risk using a compact set of lifestyle-based indicators.
+- **Wellness Apps**: Generate personalized suggestions using top-ranked predictors.
+- **Clinical Trials**: Stratify participants or assess behavioral interventions using a reduced feature set.
+- **Public Policy**: Guide national surveys and campaigns based on the most influential lifestyle behaviors.
+
+---
