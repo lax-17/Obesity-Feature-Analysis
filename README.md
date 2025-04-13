@@ -81,8 +81,6 @@ The objective is to develop a predictive model to classify individuals into one 
 ### Confusion Matrix (XGBoost)
 ![Confusion Matrix](xgboost.png)
 
-### Accuracies Bar plot
-![Accuracies](acuuracies.png)
 ---
 
 ## 🔍 Key Results
