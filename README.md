@@ -73,14 +73,16 @@ The objective is to develop a predictive model to classify individuals into one 
 ## 📷 Sample Visualizations
 
 ### SHAP Summary Plot
-![SHAP Summary](figures/shap_summary.png)
+![SHAP Summary](shap_summary.png)
 
 ### PCA Cluster Plot
-![PCA Clusters](figures/pca_clusters.png)
+![PCA Clusters](pca_clusters.png)
 
 ### Confusion Matrix (XGBoost)
-![Confusion Matrix](figures/xgboost_confusion_matrix.png)
+![Confusion Matrix](xgboost.png)
 
+### Accuracies Bar plot
+![Accuracies](acuuracies.png)
 ---
 
 ## 🔍 Key Results
